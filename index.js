@@ -1,4 +1,4 @@
-fetch("./aboutUs_info.json")
+fetch("./data.json")
     .then(response => response.json())
     .then(myPeople => loadPeople(myPeople));
 
