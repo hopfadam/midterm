@@ -1,0 +1,24 @@
+body {
+    text-align: center; /* Centers the text and any inline elements */
+}
+#us {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap as needed */
+    justify-content: center; /* Center flex items on the main axis */
+    margin: 0 auto; /* Centers the container horizontally */
+}
+.person {
+    flex: 0 1 45%; /* Allows the item to grow and shrink but with a basis of 45% */
+    box-sizing: border-box;
+    padding: 10px; /* Adds some spacing around each item */
+    margin: 5px; /* Adds space between the columns and rows */
+    text-align: left; /* Aligns the text to the left within each person's div */
+    /* Removed max-width: 500px; to allow more flexible arrangement */
+}
+img {
+    display: block; /* Make images block to allow centering */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%; /* Ensures images are responsive and do not overflow their container */
+    height: auto; /* Keeps the aspect ratio of the images */
+}
